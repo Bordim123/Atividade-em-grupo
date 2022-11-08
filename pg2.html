@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estágio</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <img src="assets/flora 1.png" alt="flora.">
+        <div id="menu1">
+            <a href="index.html"><button>Página inicial</button></a>
+            <a href="pg2.html"><button>Estágio</button></a>
+            <a href="#div1"><button id="login">Login</button></a>
+        </div>
+    </header>
+
+    <section id="apresentação">
+        <h2 class="title">Responsáveis</h2>
+
+        <img id="pessoas" src="assets/Pessoas + nomes.png" alt="Pessoas">
+    </section>
+
+    <section id="matérias">
+        <h2 class="title">Matérias</h2>
+
+        <p>As matérias que a Academia Seara/Flora leciona são:</p>
+        <ul>
+            <li>Língua Portuguesa;</li>
+            <li>Inglês;</li>
+            <li>Educação Física;</li>
+            <li>Geografia;</li>
+            <li>Filosofia;</li>
+            <li>Sociologia;</li>
+            <li>Arte, Marketing e Marcas.</li>
+        </ul>
+    </section>
+
+    <section id="Ensinomédio">
+        <h2 class="title">Ensino Médio - Estágio</h2>
+
+        <p class="subli"> 1º ano do Ensino Médio</p>
+        <p>
+            Os alunos devem seguir uma rota. Basicamente, começam com uma carteira de clientes, passam por treinamentos para entender as marcas e produtos, e mensalmente há um treinamento de vendas (objeções, planejamentos etc).
+        </p>
+
+        <p class="subli">2º ano do Ensino Médio</p>
+        <p>
+            Os alunos seguem para as Loja Swift como líderes de vendas.
+        </p>
+
+        <p class="subli">3º ano do Ensino Médio</p>
+        <p>
+            Os alunos, como já passaram pela rota e por liderança de grupo nas lojas, viram coordenadores de rota. Ou seja, fazem check de metas, atribuem metas, visitas à clientes etc.
+        </p>
+    </section>
+
+    <footer>
+        <div id="flora">
+            <p>Flora - Todos os direitos reservados</p>
+            <br>
+            <ul>
+                <li>Página inicial</li>
+                <li>Estágio</li>
+                <li>Marcas</li>
+                <li>Login</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Acompanhe:</p>
+            <div id="redes">
+                <img src="assets/insta.png" alt="insta">
+                <img src="assets/face.png" alt="face">
+                <img src="assets/IN.png" alt="linkedin">
+            </div>
+        </div>
+
+        <div>
+            <p>Contato:</p>
+            <br>
+            <p>Tel.: 0800 7034 071</p>
+            <p>academia.searaflora@germinare.org.br</p>
+            <p>9b@germinare.org.br</p>
+        </div>
+    </footer>
+
+    <!-- POP UP LOGIN E CADASTRO -->
+    <div id="div1">
+        <h1>Login</h1>
+        <form action="#">
+            <label for="femeail">Seu email:</label>
+            <input type="email" name="femail" id="femail" placeholder="exemplo123@gmail.com">
+        </form>
+
+        <form action="#">
+            <label for="fsenha">Sua senha:</label>
+            <input type="password" name="fsenha" id="fesenha" placeholder="1234">
+        </form>
+
+        <form action="#">
+           <label for="cmanterme">Manter login?</label> 
+           <input type="checkbox" name="cmanterme" id="manter">
+        </form>
+
+        <a href="pg2.html">
+            <button id="butao">
+                <p>Logar</p>
+            </button>
+        </a>
+
+        <div id="flex">
+            <p>Ainda não tem conta?</p>
+            <p><a href="#div2">Cadastre-se</a></p>
+        </div>
+    </div>
+
+
+    <div id="div2">
+        <h1>Cadastro</h1>
+        <form action="#">
+            <label for="femeail">Seu nome:</label>
+            <input type="text" name="fnome" id="fnome" placeholder="ex: Luiz da Silva">
+        </form>
+        
+        <form action="#">
+            <label for="femeail">Seu email:</label>
+            <input type="email" name="femail" id="femail" placeholder="exemplo123@gmail.com">
+        </form>
+
+        <form action="#">
+            <label for="fsenha">Sua senha:</label>
+            <input type="password" name="fsenha" id="fesenha" placeholder="1234">
+        </form>
+
+        <a href="pg2.html">
+            <button id="butao">
+                <p>Cadastrar-se</p>
+            </button>
+        </a>
+
+        <div id="flex">
+            <p>Já tem conta?</p>
+            <p><a href="#div1">Logar-se</a></p>
+        </div>
+    </div>
+</body>
+</html>

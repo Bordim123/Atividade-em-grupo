@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    width: 100vw;
+    background: #123B4F;
+    padding: 10px 50px;
+    display: flex;
+    
+}
+
+header button{
+    background-color: transparent;
+    border: solid white;
+    padding: 5px 50px;
+    border-radius: 15px;
+    margin-left: 50px;
+    height: 50px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+button:hover{
+    background-color: #174e69;
+    transition: 0.3s;
+}
+
+#menu1{
+    margin-left: 470px;
+}
+
+#login{
+    background-color: white;
+    color: #123B4F;
+    border: solid #2477a0;
+}
+
+#login:hover{
+    background-color: rgb(172, 171, 171);
+    transition: 0.3s;
+}
+
+section p{
+    width: 900px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+section img{
+    width: 92%;
+    margin-left: 50px;
+}
+
+footer{
+    width: 100vw;
+    background-color: #123B4F;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 50px;
+    margin-top: 60px;
+}
+
+footer div{
+    margin-right: 190px;
+    
+}
+
+#flora p{
+    width: 300px;
+}
+
+#flora ul{
+    list-style: none;
+}
+
+#redes{
+    display: flex;
+}
+
+#redes img{
+    margin-right: 10px;
+    height: 31px;
+    width: 32px;
+}
+
+/* POP OP LOGIN */
+
+#div1{
+    width: 400px;
+    background-color: rgb(230, 228, 228);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    display: none;
+}
+
+#div1:target {
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+}
+
+#div1 h1{
+    color: #123B4F;
+    text-align: center;
+}
+
+#butao{
+    width: 80%;
+    height: 40px;
+    background-color: #4495bd;
+    margin-left: 8%;
+    border-radius: 5px;
+}
+
+#butao:hover{
+    background-color: #2d6986;
+    transition: 0.3s;
+}
+
+form{
+    margin: 10px;
+}
+
+#flex{
+    display: flex;
+    margin-left: 120px;
+}
+
+#flex p a{
+    margin-left: 20px;
+}
+
+#flex p a:target{
+    display: block; 
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+#div2{
+    width: 400px;
+    background-color: rgb(230, 228, 228);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    display: none;
+}
+
+#div2:target {
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+}
+
+#div2 h1{
+    color: #194961;
+    text-align: center;
+}
+
+#butao{
+    width: 80%;
+    height: 40px;
+    background-color: #4495bd;
+    margin-left: 8%;
+    border-radius: 5px;
+}
+
+#butao:hover{
+    background-color: #2d6986;
+    transition: 0.3s;
+}
+
+form{
+    margin: 10px;
+}
+
+#flex{
+    display: flex;
+    margin-left: 120px;
+}
+
+#flex p a{
+    margin-left: 20px;
+}
+
+#flex p a:target{
+    display: block; 
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+/* PÁGINA 2 */
+.title{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    color: #123B4F;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pessoas{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+#matérias ul{
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#matérias{
+    margin-top: 30px;
+}
+
+#matérias p{
+    margin-left: 90px;
+}
+
+#Ensinomédio p{
+    margin-left: 100px;
+}
+
+.subli{
+    margin-top: 30px;
+    text-decoration: underline;
+}
